@@ -139,7 +139,7 @@ function processMessage($message) {
 }
 
 
-define('WEBHOOK_URL', 'https://my-site.example.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'https://github.com/kovalvalval/kharkovbot/edit/master/index.php');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
